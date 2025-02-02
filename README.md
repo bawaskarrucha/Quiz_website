@@ -40,8 +40,9 @@ The app fetches quiz data from an API and features **gamification** elements lik
 
 <h2>📸 Screenshots </h2>
 
-<h2>🎥 Video Walkthrough</h2>
-  Watch Video Demo
-  <br>
+![image](https://github.com/user-attachments/assets/5ab318d2-1760-49f8-b143-6d4127b7e634)
+![image](https://github.com/user-attachments/assets/4b669be9-0d61-4083-a230-409d82b72d2a)
+![image](https://github.com/user-attachments/assets/0d0623f6-7d7b-4a5f-8c47-0b5ecf124325)
+
   <h2> Link</h2>
     
