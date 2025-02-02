@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genetics and Evolution Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Front Page (Landing Page) -->
+    <div id="front-page" class="front-page">
+        <h1>Welcome to the Genetics and Evolution Quiz</h1>
+        <p>This quiz covers important topics in genetics and evolution. Test your knowledge!</p>
+        <button id="start-quiz" class="start-btn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Page -->
+    <div id="quiz-page" class="quiz-container hidden">
+        <h1>Genetics and Evolution Quiz</h1>
+        <p><strong>Duration:</strong> 15 minutes | <strong>Number of Questions:</strong> 10</p>
+        <p><strong>Correct Answer Marks:</strong> 4.0 | <strong>Negative Marks:</strong> -1.0</p>
+
+        <div id="question-container"></div>
+
+        <!-- Reverse, Submit, and Next Buttons -->
+        <div class="button-container">
+            <button id="reverse" class="quiz-btn">Reverse</button>
+            <button id="submit" class="quiz-btn hidden">Submit</button>
+            <button id="next" class="quiz-btn hidden">Next</button>
+        </div>
+
+        <!-- Progress Bar -->
+        <div id="progress-bar-container">
+            <div id="progress-bar"></div>
+        </div>
+
+        <div id="result" class="hidden"></div>
+    </div>
+
+    <!-- Results Page -->
+    <div id="results-page" class="results-container hidden">
+        <h1>Quiz Completed!</h1>
+        <div id="score-display"></div>
+        <div id="congratulations-message"></div>
+        <div id="score-bar-container">
+            <div id="score-bar"></div>
+        </div>
+
+        <div id="leaderboard-container">
+            <h2>Leaderboard</h2>
+            <ol id="leaderboard"></ol>
+        </div>
+
+        <div id="name-input-container">
+            <input type="text" id="name" placeholder="Enter your name" />
+            <button id="submit-score-btn">Submit Score</button>
+        </div>
+
+        <button id="retry-btn">Retry Quiz</button>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
