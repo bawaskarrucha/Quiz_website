@@ -45,4 +45,5 @@ The app fetches quiz data from an API and features **gamification** elements lik
 ![image](https://github.com/user-attachments/assets/0d0623f6-7d7b-4a5f-8c47-0b5ecf124325)
 
   <h2> Link</h2>
+   https://bawaskarrucha.github.io/Quiz_website/
     
